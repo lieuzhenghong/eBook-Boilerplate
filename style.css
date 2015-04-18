@@ -1,0 +1,97 @@
+@media (max-width:1000px) {
+    #toc {
+        min-width: 50%;
+        overflow-y: scroll;
+    }
+    #main-body {
+        max-width: 50%;
+        padding-left: 10% !important;
+        padding-right: 10%! important;
+    }
+}
+
+* {
+    box-sizing: border-box; 
+    
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+    color: hsl(180, 10%, 10%);
+    background-color: white;
+}
+
+body {
+    height: 100vh;
+}
+
+body > div {
+    height: 95%;
+}
+
+/* ------------------------------ */
+
+#main-body {
+    float:right;
+    padding-left: 15%;
+    padding-right: 15%;
+    overflow-y: scroll;
+    width: 70%;
+}
+
+#main-body p {
+    line-height: 2em;
+}
+
+/********************/
+
+#toc {
+    float: left;
+    border-right: 2px dotted black;
+    width: 30%;
+}
+
+ul {
+    line-height: 2em;
+}
+
+.heading {
+    font-size: 1.2em;
+    padding: 20px;
+    font-weight: 600;
+    font-family: Arial;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: inherit;
+    color: hsl(180, 20%, 30%);
+}
+
+a:hover {
+    color: red;
+}
+
+a: visited {
+    color: black;
+}
+
+h1, h2 {
+    font-family: Arial;
+}
+
+
+
+/**************************************/
+
+footer {
+    clear:both;
+    height: 5%;
+}
+
+#back-to-top {
+    display: none;
+}
