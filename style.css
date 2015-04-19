@@ -21,6 +21,7 @@ html, body {
     font-size: 1.1em;
     color: hsl(180, 10%, 10%);
     background-color: white;
+    font-family: 'Lora', serif;
 }
 
 body {
